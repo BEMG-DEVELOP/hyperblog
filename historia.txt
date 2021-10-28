@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Esta es la vida de Brian Edrei.
 
 Tomando el curso profesional de git y github
@@ -28,3 +29,10 @@ que se modificaron.
 Los dos comandos anteriores son para diferenciar los datos que se cambiaron 
 en los archivos
  git solo guarda los cambios
+=======
+Esta es la historia de Brian E. de
+
+Brian tiene 22 años y nacio en Mexico.
+
+Hoy hablaremos en su historia
+>>>>>>> 8fb3405 (Este es mi primer commit)
