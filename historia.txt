@@ -35,4 +35,7 @@ Esta es la historia de Brian E. de
 Brian tiene 22 años y nacio en Mexico.
 
 Hoy hablaremos en su historia
+<<<<<<< HEAD
 >>>>>>> 8fb3405 (Este es mi primer commit)
+=======
+>>>>>>> 6a73e28 (utilice git reset --hard)
