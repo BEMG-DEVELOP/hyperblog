@@ -1,0 +1,45 @@
+# Este es un ejemplo de como usar u n codeowners .
+# Este es el propietario de todo el repositorio
+*   @bemg-develop
+  
+# El orden es importante; el último patrón en coincidir tiene la mayor
+# prioridad. Cuando alguien abre una solicitud de extracción que solo
+# modifica archivos JS, solo se le solicitará una revisión a @js-owner y no al/los # propietario(s) general(es).
+*.js @brian2110
+
+# Si prefieres, también puedes usar direcciones de correo electrónico. Serán
+# usadas para buscar usuarios como hacemos para los 
+# correos electrónicos del autor de la confirmación.
+*.go docs@example.com
+
+
+# Teams can be specified as code owners as well. Teams should
+# be identified in the format @org/team-name. Teams must have
+# explicit write access to the repository. In this example,
+# the octocats team in the octo-org organization owns all .txt files.
+*.txt @octo-org/octocats
+
+# In this example, @doctocat owns any files in the build/logs
+# directory at the root of the repository and any of its
+# subdirectories.
+/build/logs/ @doctocat
+
+# El patrón `docs/*` coincidirá con archivos como
+# `docs/getting-started.md` pero no con otros archivos anidados como
+# `docs/build-app/troubleshooting.md`.
+docs/*  docs@example.com
+
+# En este ejemplo, @octocat posee cualquier archivo en el directorio de las apps
+# en cualquier lugar en tu repositorio.
+apps/ @octocat
+
+# In this example, @doctocat owns any file in the `/docs`
+# directory in the root of your repository and any of its
+# subdirectories.
+/docs/ @doctocat
+
+# In this example, @octocat owns any file in the `/apps` 
+# directory in the root of your repository except for the `/apps/github` 
+# subdirectory, as its owners are left empty.
+/apps/ @octocat
+/apps/github 
