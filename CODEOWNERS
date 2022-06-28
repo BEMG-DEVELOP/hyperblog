@@ -1,4 +1,4 @@
-# Este es un ejemplo de como usar u n codeowners .
+# Este es un ejemplo de como usar un codeowners .
 # Este es el propietario de todo el repositorio
 *   @bemg-develop
   
