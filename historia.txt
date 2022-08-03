@@ -43,7 +43,11 @@ Hoy hablaremos en su historia
 =======
 despues nos enfocaremos en su vida laboral
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cb03cc1 (cambio de su historia por otra)
 =======
 hice el cambio de https a ssh
 >>>>>>> 1831653 (Cambio de https a ssh)
+=======
+hice el cambio de https a ssh, tengo la duda que si es bueno ocupar siempre sudo para los commit
+>>>>>>> 66d6f50 (Expresando mis dudas)
