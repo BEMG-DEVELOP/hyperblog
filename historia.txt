@@ -42,4 +42,8 @@ Hoy hablaremos en su historia
 >>>>>>> 6a73e28 (utilice git reset --hard)
 =======
 despues nos enfocaremos en su vida laboral
+<<<<<<< HEAD
 >>>>>>> cb03cc1 (cambio de su historia por otra)
+=======
+hice el cambio de https a ssh
+>>>>>>> 1831653 (Cambio de https a ssh)
