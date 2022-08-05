@@ -50,4 +50,10 @@ hice el cambio de https a ssh
 >>>>>>> 1831653 (Cambio de https a ssh)
 =======
 hice el cambio de https a ssh, tengo la duda que si es bueno ocupar siempre sudo para los commit
+<<<<<<< HEAD
 >>>>>>> 66d6f50 (Expresando mis dudas)
+=======
+hoy 04/08/22
+Logre con ayuda de un amigo, configurar mi pc con sistema fedora para que el desarrollo web y con base de datos en oracle a traves de una maquina virtual
+fue un proceso para la llaves ssh, en donde se tienen dos una para el trabajo personal y otra para el trabajo 
+>>>>>>> 4b35d03 (Es evitdencia de que subi un commit)
