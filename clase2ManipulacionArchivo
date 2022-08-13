@@ -1,0 +1,15 @@
+	Clase 2 Manipulando archivo y directorios
+
+En esta clase estamos viendo como crearlos, modificarlos,moverlos, copiarlo y eliminarlos un archivo o carpeta, esto mismo se hace en la interfaz grafica.
+Algo interesante es que en linux podemos ver los archivos ocultos, los cuales son los que inician con un .<nombre>, podemos verlo con el siguiente comando:
+
+	->ls -la  Arroja un lista con informacion y con todos los archivos ocultos
+	->tree Es otra opción parecida a ls, pero que lo hace en forma de árbol y lo podemos manejar con niveles.
+	->mkdir <nombre> Creamos una carpeta(Se recomienda que no se creen con espacios), podemos crear multiples carpetas en una sola línea.
+		mkdir prueba  mkdir prueba1 prueba 2
+
+	->touch <nombre> Creamos un archivo, podemos crear multiples archivos en una sola línea.
+	
+	->cp <Nombre> <Nombre_copia> Copiamos un archivo, colocamos el nombre de la copia ya sea que con direccion para ubicar la copia.
+	->mv <Nombre> <directorio/renombrar> Se mueve  el archivo al directorio que le indicamos o se renombra el archivo.
+	->rm <Nombre> Se elimina el archivo 
