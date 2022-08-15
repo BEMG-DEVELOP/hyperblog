@@ -1,0 +1,10 @@
+Esta es la historia de Brian E. de
+
+Brian tiene 22 años y nacio en Mexico.
+
+despues nos enfocaremos en su vida laboral
+hice el cambio de https a ssh, tengo la duda que si es bueno ocupar siempre sudo para los commit
+hoy 04/08/22
+Logre con ayuda de un amigo, configurar mi pc con sistema fedora para que el desarrollo web y con base de datos en oracle a traves de una maquina virtual
+fue un proceso para la llaves ssh, en donde se tienen dos una para el trabajo personal y otra para el trabajo 
+    Wd
