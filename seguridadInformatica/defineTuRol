@@ -1,0 +1,58 @@
+Ramas existentes:
+	->Seguridad de la información: Es un área  que habla de datos
+	-Normativas y restriccion. Se preocupa por el cumplimiento de las normas (ISO 27001).
+	-DLP(Data loss prevention), Continuidad del negocio, hablan sobre protegernos encaso de desastres (ISO 22301).
+	
+	->Código seguro
+	-Autenticación.
+	-Buenas prácticas.
+	-OWASP for devs or "Requisitos de seguridad en Aplicaciones".
+	-Arquitectura de seguridad en aplicaciones.
+
+	->Seguridad aplicativa:
+		->Web:
+		 -Inyeccionde codigo (XSS , SLQ Y NOSQL, LDAP)
+		 -Autenticación.
+		 -Datos sensibles.
+		 -Controles de acceso.
+		 -XML & Jason.
+		 -Configuraciones (Componentes con vulnerabilidades conocidas)
+		 -Deserializacion (Exploits).
+		 -Monitorep y control.
+		 -Ingenieria reversa.
+		->Mobile:
+		 -Analisis Esteticos (Codigo y componentes).
+		 -Analisis Dinamico (Interactuar con la informacion)
+		->Network:
+		 -Arquitecturas seguras.
+		 -Proteccion de servidores.
+		 -Cifrados.
+	->Criptografia:
+		->Esteganografia/marcas de agua
+		 -Imagenes.
+		 -Audio.
+		 -Video.
+		 -Texto.
+	->Criptografia:
+	 -Algoritmo.
+	 -Matematicas (Algebra y calculo).
+	->Redes
+	 -Hadware (tecnnoligias de transmision, escala,dispositivos, arquitectura)
+	 -Software (Jerarquia de protocolos)
+	 -Seguridad en redes
+	->Ingenieria social.
+	 -phishing
+	 -vishing
+	->CiberInteligencia
+	 -OSINT ()
+	->Forences
+	->Etica
+	 -haking etico
+	->Scripting
+	 -Bash
+	 -Payloadig
+	 -Exploits
+	->Malware
+	 -Analisis de malware.
+	 -Proteccion de malware
+	 -IA + Malware
