@@ -1,0 +1,31 @@
+Que es un comando?
+Es un mensaje enviado al ordenador que provoca una respuesta en el sistema y 
+se comporta como una orden, pues informa al dispositivo  informatico que debe
+ejecutar una accion segun la indicacion.
+
+Cada sistema operativo incorpora un determinado numero  de comandos basico,
+que permiten ejecutar las tareas mas simples con ordenes directas.
+
+Un comando puede significar cuatro cosas:
+	->Un programa ejecutable.
+
+Un comando de utilidad de la shell.Esto es un programa en si mismo, que puede
+tener funciones.
+
+Una funcion  de shell. son funciones de shell externas al comando de utilidad.
+
+un alias.
+Podemos crear un alias a un comando y para crear un alias es de la siguiente 
+forma:
+
+"alias "nombre/acronimo/letra"="Comando"
+
+la desventaja del alias es que cuando cerramos la terminal, se borra el alias.
+ 
+El comando "Whatis" nos dira que tipo de comando  y que hace el comando.
+
+Wildcards
+
+Son unos caracteres especiales para hacer busquedas mas avanzadas, para un patron.
+Redirecciones : como funciona la shell.
+Encadenando comandos
