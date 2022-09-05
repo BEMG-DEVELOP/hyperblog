@@ -1,0 +1,15 @@
+Redirecciones
+
+Entrada: Se les suele llamar Standard Input (stdin)
+Salidas: Se les suele llamar Standard Output (stdout)
+Error: Se le suele llamar a Standard Error(stderr)
+
+ ls <Directorio/Archivo> ">" <Archivo>
+
+El signo ">" es el que redirecciona los datos crea o reescribe el archivo,
+con dos signos ">>" concatena   el archivo  que se desea redirigir  con el archivo ya creado.
+
+Si quieres guardar los Standard Error en un archivo de texto, ejecutamos el siguiente comando
+<Error> "2>" <Nombre Archivo errores>
+
+Debemos tener cuidado al usarlo, porque como  mencionamos, un solo signo > crea y reescribe el archivo, asi que podemos cometer un error.
