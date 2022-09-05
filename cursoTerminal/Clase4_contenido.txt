@@ -1,0 +1,8 @@
+En esta clase veremos el contenido de nuestros archivos.
+
+head <Archivo> -(n(Numero de linea)):Nos mostrara las 10 primeras linas de nuestro archivo
+tail <Archivo>: Nos mostrara las ultimas 10 lineas del archivos.
+less <Archivo>: Nos permite entrar al archivo de manera interactiva para movernos, navegar y buscar en el archivo.
+xdg-open <Archivo>: Abre el archivo con el editor de texto predeterminado, peor se ejecuta un proceso en la terminal.
+nautilus <Directorio>:Se ejecuta el proceso para abrir nuestro explorador de archivos.
+
