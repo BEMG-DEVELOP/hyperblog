@@ -1,0 +1,15 @@
+Redirecciones Pipe operator
+Es un operador que permite tomar la salida de un comando y pasarlo como entrada de otro comando.
+
+echo "Texto" genera un stdout
+cat <Archivo1> <Archivo2> se concatena y genera un stout
+
+ls -lh <Directorio> | less
+
+podemos concatenar distintos filtro o comando para crear , mover , copiar y distintas acciones, después de un comando.
+Comandos:
+
+scort: Organiza alfabeticamente una salida.
+cat: Concatena dos entradas
+tee: Crea un archivo en base a una entrada.
+
