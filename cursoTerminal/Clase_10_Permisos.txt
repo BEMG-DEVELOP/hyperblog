@@ -1,0 +1,41 @@
+Tipos de archivos:
+-	Un archivo normal
+d	directorio
+l	link simbolico
+b	un archivo de bloque especial
+
+Tipo de modos
+		Permisos
+	Dueño:  rwx
+	Grupo:	r-x
+	World:	r-x
+
+Permisos:
+r "read/leer"
+w "write/escribir"
+x "execute/ejecutar"
+
+Los permisos se escriben en ese orden rwx. Para indicar que el permiso no está disponible, se escribe un guion.
+Como se tiene que tener tres permisos, para cada modo , se representa con 3 bits que hace representacion en un modo octal.
+*Cuso de fundamentos de ingenieria*
+
+Modo simbolico:
+	u:	Solo para el usuario.
+	g:	Solo para el grupo.
+	o:	Solo para world(Otros)
+	a:	Aplica para todos.
+
+Ahora veamos los siguientes ejemplos:
+	1. drwxr-xr-x 
+	2. -rw-r--r--
+Teniendo clara la información anterior, podemos distinguir que el ejemplo 1 es un directorio y el 2 es un archivo,
+tambien podemos saber quien tiene permisos y que permisos tienen, siempre el orden de los permisos es el siguiente:
+
+	owner | group | world
+	rwx	r-x	r-x
+	111	101	101	bits
+	 7	 5	5	octal
+
+Como mencionamos antes los permisos se representan en bit y puede representar por medio del sistema octal su representacion.
+Con la información anterior y los ejemplos del archivo y directorio responde  ¿Que permisos tienen?, ¿quien tiene que permisos?,¿cual seria la representacion en octal del archivo?.
+
