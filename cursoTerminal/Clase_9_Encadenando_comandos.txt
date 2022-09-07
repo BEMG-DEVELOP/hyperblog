@@ -1,0 +1,26 @@
+Son simbolos reservados por la terminal que nos permiten encadenar comandos, podemos ejecutar uno o mas comando.
+
+Podemos ejecutar comando varios comandos en la misma línea, lo que debemos colocar al final del comando es un ";", 
+como lo muestra el  siguiente comando:
+	>ls; mkdir ejemplo.txt; mv ejemplo.txt holi/
+Usar multiples comandos es muy comun, para mayor eficiencia al momento de trabajar con la terminal.
+
+El ejemplo anterior se le denomina uso de comandos sincronos por que se ejecutan en el orden en el que colocamos los comandos.
+Ahora tambien existen los asincronos, lo que significa es que por cada comando que se ejecute, se va a abrir una terminal en segundo plano, lo cual va a ejecutar los comando de manera paralela, *Tenemos que tener precaución porque podemos hacer que se trabe y entre en un ciclo infinito*, la manera de hacerlo es como se muestra en el siguiente ejemplo.
+	>ls & date & cal
+El resultado de esto  saldra algo similar a lo siguiente:
+
+	(Numero de hilo)[1] 7591     
+			[2] 7592 (Numero de proceso)
+			mar 06 sep 2022 18:38:05 CDT (Resultado del comando date)
+			[2] + 7592 done date (Numero de hilo y proceso que se ejecuto)
+			*Resultado ls*
+			[1] + 7591 done ls --ls --color=tyy
+			*CALENDARIO*
+Tomando el comando de ejemplo anterior, el resultado es el ejemplo de arriba.
+
+Podemos ejecutar comandos de manera condicional, esto quiere decir ejecutar un comando si se cumple se ejecuta otro comando, 
+para poder hacer condiciones en los comandos vamos a usar los simbolios &&(and / y), || (or / o)como se muestra con el siguiente ejemplo.
+	>mkdir test && cd test
+	>cd jhsdfjklha || touch archivo || echo"Archivo creado" *Tener precaucion, ten cuidado con tu logica, de lo contrario puede a ver incoerencias*
+
