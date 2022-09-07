@@ -1,0 +1,7 @@
+Modificando permisos:
+
+En el manejo de la terminal existen dos usuarios, el usuario root y el usuario normal, la unica diferencia es que
+el usuario root tiene y puede hacer de todo, el usuario normal, solo puede hacer lo que tiene permitido segun sus permisos.
+
+Para nosotros hacer el cambio de permisos a un archivo debemos ocupar el comando "chmod"(change mode),el comando lo que hace es cambiar los permisos de un archivo o directorio,ejecutando el siguiente comando lo veremos.
+	>touch texto1.txt; ls -l; chmod 755 texto1.txt; ls -l
