@@ -1,0 +1,32 @@
+Cada archivo en nuestro sistema tiene permisos, dependiendo el usuario, los conceptos basicos para entender los
+permisos podemos consultar la clase 11, en está clase veremos como cambiarle los permisos de un archivo para un
+usuario.
+
+Vamos a entrar a la carpeta de archivos para realizar las pruebas.
+
+Para ver los permisos de los archivos o carpetas recordemos que debemos usar el comando ls -l, el cual nos dara
+una lista con los permisos de cada archivo.
+
+El comando "chmod" es lo que vamos a usar para poder cambiar los permisos, de preferencia se ponen permisos de
+manera octal, pero tambien podemos usar los simbolos +/- para quitar o agregar permisos.
+
+>chmod 755 archivo.index
+
+Con el comando anterior dimos todos los permisos al usuario, pero al grupo y a otros, solo dimos permisos de
+ejecución.
+
+>chmod u-r archivo.index / chmod u+r archivo.index
+
+Con el comando anterior, le quitamos el permiso al usuario de lectura y el siguiente se agrega el permiso
+
+>chmod u-x,go=w archivo.index
+
+Tambien bien por medio de la terminal podemos saber que usuario somos y cambiar de usuario 
+>whoami
+
+>su root
+"su" Se usa para cambiar de usuarios
+
+Es una mala practica que el usuario root y nuestro usuario tengan la misma contraseña, asi que debemos cambiarla
+se hace con el comando "passwd" lo que pedira es la contraseña actual, después la nueva contraseña y la confirmación
+de la misma

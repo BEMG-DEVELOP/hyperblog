@@ -1,0 +1,20 @@
+Variables de entorno
+
+Las variables de entorno son útiles cuando necesitamos que cierta información prevalezca para poder trabajar más 
+rápido o necesitamos guardar información para no tener que recordarla constantemente.
+
+Variables de entorno en Linux
+En linux hay varias variables de entorno que ya están preestablecidas, para verlas desde la consola es tan simple 
+como usar el comando seguido de la variable de entorno.
+
+Por cierto, todas las variables de entorno se mandan a llamar con un signo de peso por delante, de lo contrario se 
+interpretará como un comando.
+
+Variable	Contenido
+HOME	Indica el home del usuario
+PATH	Indica las direcciones de donde están los binarios que usa el sistema
+BASH_VERSION	Indica la versión del bash que estás utilizando
+SHELL	Dirección de la shell que estás utilizando
+
+Hay muchas más, pero estas son las que te pueden interesar. Por cierto, por convención las variables de entorno se 
+crean en mayúsculas.
