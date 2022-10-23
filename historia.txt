@@ -1,3 +1,4 @@
 Esta es la vida de Brian Edrei.
 
 Tomando el curso profesional de git y github
+el dia siguiente nos enfocaremos en su vida laboral
