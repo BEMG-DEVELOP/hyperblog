@@ -24,3 +24,6 @@ Con el comando git show <Archivo> podemos visualizar los cambios que tuvo el arc
 
 Con el comando git diff <commitA> <commitB> Compara la version de los archivos
 que se modificaron.
+
+Los dos comandos anteriores son para diferenciar los datos que se cambiaron 
+en los archivos
