@@ -1,0 +1,17 @@
+Que es una rama(branch) y como funciona  un Merge en git?
+
+Todo repositorio por defecto tiene una rama (master) en donde se tienen los cambios
+de los archivos.
+
+Si uno quisiera hacer hacer un cambio grande en el repositorio o se quiere
+experimentar algo para el repositorios se recomienda crea ramas apartes.
+
+Cuando creamos una rama aparte lo que se hace es hacer una copia del repositorio
+con lo cual podemos hacer los cambios que se desean hacer sin afectar al
+repositorio principal, una vez que consideres que ya tienes los cambios
+se debe hacer un merge a la rama principal.
+
+Se pueden tener infinidad de ramas, sin embargo lo mas importante es el
+momento de hacer un merge, por que  al tratar de fucionarlos puede que se 
+tenga conflictos.
+
