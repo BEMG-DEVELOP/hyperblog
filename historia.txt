@@ -7,7 +7,9 @@ Clase 8 creando un repositorio de git y haz tu primer commit.
  con el comendo "git rm --cached" borra el archivo de la memoria RAM
 
 git commit es el comando que manda los cambios al repositorio,como tal no es 
-obligatorio dejar un mensaje, pero es una mala practica.
+obligatorio dejar un mensaje, pero es una mala practica y cuando tratamos de 
+enviar un commit sin mensaje, nos abre un editor de codigo (Vim) y nunca se puede mandar
+un commit vacio, asi que se puede conciderar que el mensaje es obligatorio.
 
 Por lo general ocupamos dos comando para hacer un commit en nuestro repositorio
 	git add .
