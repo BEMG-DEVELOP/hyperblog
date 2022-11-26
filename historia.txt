@@ -2,3 +2,11 @@ Esta es la vida de Brian Edrei.
 
 Tomando el curso profesional de git y github
 el dia siguiente nos enfocaremos en su vida laboral
+
+Clase 8 creando un repositorio de git y haz tu primer commit.
+ con el comendo "git rm --cached" borra el archivo de la memoria RAM
+
+git commit es el comando que manda los cambios al repositorio,como tal no es 
+obligatorio dejar un mensaje, pero es una mala practica.
+
+
