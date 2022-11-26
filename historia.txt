@@ -18,5 +18,6 @@ Podemos evitar escribir el primer comando  mesclandolo con el segundo comando
 Una buena practica es estar ejecutando el comando git status para ver que 
 archivos se modificaron.
 
+Con el comando git show <Archivo> podemos visualizar los cambios que tuvo el archivo.
 
 
