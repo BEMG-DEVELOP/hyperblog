@@ -9,4 +9,14 @@ Clase 8 creando un repositorio de git y haz tu primer commit.
 git commit es el comando que manda los cambios al repositorio,como tal no es 
 obligatorio dejar un mensaje, pero es una mala practica.
 
+Por lo general ocupamos dos comando para hacer un commit en nuestro repositorio
+	git add .
+	git commit -m""
+Podemos evitar escribir el primer comando  mesclandolo con el segundo comando
+	git commit -am""
+
+Una buena practica es estar ejecutando el comando git status para ver que 
+archivos se modificaron.
+
+
 
