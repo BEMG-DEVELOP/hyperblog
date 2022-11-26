@@ -22,4 +22,5 @@ archivos se modificaron.
 
 Con el comando git show <Archivo> podemos visualizar los cambios que tuvo el archivo.
 
-
+Con el comando git diff <commitA> <commitB> Compara la version de los archivos
+que se modificaron.
