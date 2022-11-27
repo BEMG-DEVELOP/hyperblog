@@ -1,0 +1,42 @@
+Son comandos que por lo general confundimos  cuando vamos empezando, pero
+vamos a ver la diferencia de uno y otro.
+
+Git rm
+
+Este comando nos ayuda a eliminar archivos de git sin eliminar su historial y 
+si lo necesitamos recuperar, podemos ir al pasado, lo importante tambien es
+decirle a git como borrar los archivos con lo cual debemos ocupar una de 
+estas dos flags --cached o --force.
+
+	git rm --cached
+	
+	En pocas palabras git deja de seguir(tracked) el historial de cambios
+	de los archivos y los pasa al estado sin seguimiento(untracked).
+	
+	git rm --force
+	
+	Este comando elimina los archivos de git y del disco duro, pero como 
+	git guarda todo  podemos recuperar lo eliminado con un comando avanzado.
+
+Git reset
+
+
+Este comando nos ayuda a volver en el tiempo, pero no podemos volver al futuro,
+con este comando debemos tenermucho cuidado, por que borramos y no hay vuelta atras.
+
+Recordemos que para este comando debemos usar una de los las siguientes dos opciones
+--hard o --soft.
+
+	git reset --soft
+
+	Borramos todo el historial  y los registros de git pero  los cambios
+	que tengamos en staging aun estaran.
+
+	git reset --hard
+
+	Es simple, BORRA TODO.
+
+	git reset HEAD
+	
+	Con este comando solo sacamos los archivos de la zona de staging, no
+	se borran ni se pierden los cambios, solo salen del area de staging.
