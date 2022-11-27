@@ -7,3 +7,10 @@ pero los documentos en staging siguen ahi.
 	git reset <Commit> --hard
 	git reset <Commit> --soft
 
+Con el comando git checkout <Commit> <Archivo> podemos tambien regresar en
+el tiempo,pero tambien podemos colocar master y nos traera el ultimo commit
+que hicimos en ese archivo.
+
+Con el checkout debemos tener cuidado, por que nos detecta el archivo como
+si se hubiera modificado, y si lo mandamos en un commit, se guarda el archivo
+en la version que traemos.
