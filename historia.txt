@@ -27,3 +27,4 @@ que se modificaron.
 
 Los dos comandos anteriores son para diferenciar los datos que se cambiaron 
 en los archivos
+ git solo guarda los cambios
