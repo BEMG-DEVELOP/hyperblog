@@ -27,7 +27,25 @@ Se pueden tener infinidad de ramas, sin embargo lo mas importante es el momento 
 al tratar de fucionarlos puede que se tenga conflictos, pero no hay nada de lo que se tenga que preocupar, git nos ayuda mandando un
 error  de conflicto y no hace el merge, podemos ver cuales son los conflictos.
 
-Como cambiamos de rama?
+Como se crea una rama?
 
-Para cambiar de rama se debe ejecutar el comando "git branch <nombre-rama>" 
+Para crear una rama se debe ejecutar el comando "git branch <nombre-rama>", podemos consultar las ramas que tenemos con el
+comando "git branch"  y nos enlista las ramas que se tiene y con un asteristco se muestra en que rama se encuentra el usuario,
+también para navegar entre ramas se debe usar el comando "git checkout <nombre-rama>.
+
+Como sabemos si cambiamos de rama?
+En la terminal o linea de comando, cuando estamos dentro de un proyecto con git cuando entramos a la carpeta en linea de comando
+ aparece el nombre master, si ejecutamos el comando para cambiar la rama podemos ver que el nombre de nombre cambia por el que 
+solicitamos, o podemos ejecutar git branch y tambien nos indica en que rama nos encontramos.
+
+Como eliminamos una rama?
+
+Con el comando "git branch <nombre-rama> -d", la opcion -d o --delete es para borrar una rama.
+
+Ejecutando el comando git branch --help, podemos obtener ayuda de todo lo que podemos hacer con las ramas, las opciónes que
+se tienen son muchas, solo es entender que es lo que estamos haciendo.No hay ningun problema si el proyecto se rompe en una rama,
+podemos volver a una versión anterior o borrar la rama y empezar de nuevo, mientras no borremos la rama main(master).
+
+Las ramas por default no se suben al repositorio remotom debemos especificar para que se suban y sean del conocimiento de todos,
+ojo las ramas no quiere determinar que sea una versión, para ello tenemos las tags, pero ese es otro tema.
 
