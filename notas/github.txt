@@ -17,6 +17,12 @@ agregar el origen remoto "git remote add <nombre/origin> <url>" (La url se obtie
 
 Para verificar que se agrego el origen remoto,e ejecuta el comando "git remote" y aparecera el nombre que le dimos.
 
+Por lo regular cuando se crea algun cambio en el repositorio que no esta en el local, puede generar un conflicto, por que no tienen
+una relación, cuando tratamos de hacer un git pull o un push, no sale un error en la terminal donde especifica que debemos hace un
+git config pull.rebase false o true, por lo cual debemos sabes que opción tomar, tambien podemos ejecutar el comando  
+"git pull origin main --allow-unrelated-histories" el cual nos ayuda a tener los cambios  que se tienen en el repositorio remoto y 
+continuar sin problemas.
+
 
 
 
