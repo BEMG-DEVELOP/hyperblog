@@ -1,0 +1,21 @@
+Que es un staging?
+
+Es el  lugar donde se guarda temporalmente los cambios, es cuando el archivo 
+esta de color verde,lo podemos ver en el momento que ejecutamos git status,en
+ese momento es cuando los archivos estan en staging y estan esperando que
+lo mandemos al repositorio.
+
+Cuando ejecutamos git init se agrega el espacio de staging y se crea la carpeta .git/
+
+En palabras de fredy vega "Staging es la memoria RAM, es el estado temporal al que agregamos archivos que vamos cambiando y el repositorio real es al que le hacemos llegar el commit"
+
+Es importante saber los estados de los archivos.
+
+Cuando no se da seguimiento a un archivo o no se ejecuta un git add .
+Los archivos se encuentran en  untracked.
+
+Al ejecutar el git add  los archivos entran en el estado tracked y se agrega
+en el espacio de stagiing.
+
+Cuando ejecutamos git commit -m"" pas 
+

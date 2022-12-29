@@ -1,0 +1,16 @@
+Cuando queremos volver a una version anterio de un archivo o a cierto commit
+podemos ejecutar "git reset <commit>", pero git reset tiene dos opciones
+regresar todo a la version anterior y olvidar todos los commit hechos hasta 
+ese punto  --hard o --soft en el cual podemos volver a la version anterior
+pero los documentos en staging siguen ahi.
+
+	git reset <Commit> --hard
+	git reset <Commit> --soft
+
+Con el comando git checkout <Commit> <Archivo> podemos tambien regresar en
+el tiempo,pero tambien podemos colocar master y nos traera el ultimo commit
+que hicimos en ese archivo.
+
+Con el checkout debemos tener cuidado, por que nos detecta el archivo como
+si se hubiera modificado, y si lo mandamos en un commit, se guarda el archivo
+en la version que traemos.
