@@ -1,0 +1,25 @@
+¿Que es  HTML Y CSS?
+
+Por sus siglas en ingles HTML es un lenguaje  de marcador de hipertexto (HyperText Markup language) es un código  para construir la estructura  de una pag. web, va ser nuestro esqueleto para la pag.
+
+Css en pocas palabas son hojas de estilos en cascada, es la que le va dar color,vida y detalle.
+
+Ambos van de la mano al momento del desarrollo de una pag. web donde podemos hacer algo básico, por el momento vamos a ir construyendo un sitio web sin nunguin plugin o paquetes.
+En todo internet encontramos html y css, podemos tambien ver como esta creada una pag. web si inspeccionamos los elementos del navegador.
+
+Ahora los navegadores no entienden el código que nosotros vamos creando, los navegadores tienen motores para  interpretar nuestro código el cual nos ayuda que visualicemos la pag.
+Los motores lo que hacen es pasar los archivos HTML a objetos (DOM Document Object Model) y de igual forma los archivos css (CSSDOM Cascade Style Sheet Object Model), cada nodo en el árbol es una representación de los elementos,
+después calcula los estilos  correspondiente a los  componentes del DOM y los relaciona con CSSDOM, después calcula las dimensiones de cada nodo y donde va en la pantalla ,lo siguiente que hace es pintar o renderizar los distintos
+elementos como cajas o contenedores, y por ultimo agrupa las cajas  y las convierte en una imagen para mostrar en la pantalla.
+
+Para empezara escribir código, debemos conoce la anatomía de HTML.
+Como sabemos HTML es un lenguaje de  marcador o de etiquetas y lo podemos ver en el siguiente ejemplo:
+	<h1>Platzi</h1>
+Podemos observar que tiene "<h1>" y "</h1>", estas son etiquetas y en HTML existen muchas etiquetas, cada una  tiene una función en especifico, en este caso  son  para poner un titulo en tamaño grande, y la palabra "Platzi" es lo que 
+va a decir el titulo (Se creara un archivo index donde se ira creando un commit  cada ves que escribamos código y lo podamos visualizar con ayuda de git).
+
+A las etiquetas podemos también agregarle atributos los cual nos va a ayudar a comunicarnos con css, y con muchas cosas más, pero poco a poco, también podemos tener etiquitas anidadas entre si, también existen etiquetas que no tiene una
+etiqueta de cierre.
+
+¿Donde escribimos  el código?
+El código de html puede ser escrito en un bloc de notas, todo lo vimos en el prework
