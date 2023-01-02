@@ -1,13 +1,19 @@
-Que es seguridad informatica?
+¿Que es seguridad informatica?
 
- Todo lo que implica proteger  el acceso o uso no autorizado a los datos 
- digitales.
+Mi concepto:
+	Es una rama de la tecnología dedicada a salvaguardar, proteger y resguardar nuestra información digital.
+
+
+
+ Todo lo que implica proteger  el acceso o uso no autorizado a los datos  digitales.
 
 Prerequisitos:
-	->Redes computacionales (protocolos de red, modelos OSI,TCP/IP,
-	 arquitectura de redes.)
+	->Redes computacionales (protocolos de red, modelos OSI,TCP/IP, arquitectura de redes.)
 	->Desallorro de software / lenguaje de programacion.
 	->Sistemas computacionales.(Sistemas operativos, Arquitectura de sistemas)
 	->Normativa y legislacion
 
 *Aprender ingles es esencial.*
+
+En esta rama nunca vas a parar de aprender, no importa el lenguaje de programación lo importante es saber la lógica que se emplea.
+
