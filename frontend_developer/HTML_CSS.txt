@@ -23,3 +23,11 @@ etiqueta de cierre.
 
 ¿Donde escribimos  el código?
 El código de html puede ser escrito en un bloc de notas, todo lo vimos en el prework
+
+
+HTML Semántico
+
+Consiste en que cada elemento tenga su propia etiqueta que lo defina correctamente, no siempre debemos ocupar el div, esto es para poder hacer más accesible nuestro código, y ayudamos al motor del
+navegador a entender mejor nuestra pag.
+
+Existen muchas etiqueta que nos ayudan a entender el código y la parte donde dentro de la pantalla.
