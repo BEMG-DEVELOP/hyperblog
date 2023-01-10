@@ -31,3 +31,5 @@ Consiste en que cada elemento tenga su propia etiqueta que lo defina correctamen
 navegador a entender mejor nuestra pag.
 
 Existen muchas etiqueta que nos ayudan a entender el código y la parte donde dentro de la pantalla.
+
+Las etiquetas más utilizadas 
