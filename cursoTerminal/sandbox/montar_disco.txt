@@ -35,3 +35,7 @@ Damos los permisos de nuestro usuario a la carpeta sudo chown -R brianedrei:bria
 Ahora pasamos a configurar el montaje automatico editando el siguiente archivo sudo nano /etc/fstab
 Agregando esta linea al final UUID=XXXX-XXXX  /data  ext4  defaults,noatime  0  2
 
+Lo probamos,antes de reiniciar el equipo sudo umount /data
+sudo mount -a
+
+Una ves iniciado, verifiacmos  con el comando df -h, si sale ya quedo.
