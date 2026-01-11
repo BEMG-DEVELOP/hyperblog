@@ -1,0 +1,37 @@
+Hola, tenia un pequeño problema en mi pc, tengo dos discos, SSD y HDD pero estoy trabajando en linux, y el disco principal era SSD, el disco HDD no estaba montado de forma automatica.
+Con la ayuda de chat gpt me mostro el camino y quedo bastante bien, tratere de explicarlo para futuras ayudas.
+
+Mi disco se encontraba en la ruta "/run/media/brianedrei/A", Eso significa que:
+
+GNOME lo monta como dispositivo externo
+
+Usa udisks
+
+Pide contraseña por seguridad
+
+ No es persistente
+
+ No es ideal para desarrollo ni Docker
+
+ Para desarrollo NO se debe usar /run/media/
+
+Lo que se realizo fue lo siguiente:
+
+Montar el disco en /mnt o /data
+ Configurarlo en /etc/fstab
+ Que se monte automáticamente al arrancar
+ Que sea accesible sin contraseña
+
+Identificamos el disco en la terminal mediante el comando lsblk -f, el cual nos dio una salida asi
+
+sdb
+└─sdb1 ext4 UUID=xxxx-xxxx
+
+Copiamos el UUID
+
+Creamos nuestro punto de montaje sudo mkdir /mnt/data
+Probamos el montaje de manera manual sudo mount /dev/sdb1 /data verificandolo con el comando df -h
+Damos los permisos de nuestro usuario a la carpeta sudo chown -R brianedrei:brianedrei /data
+Ahora pasamos a configurar el montaje automatico editando el siguiente archivo sudo nano /etc/fstab
+Agregando esta linea al final UUID=XXXX-XXXX  /data  ext4  defaults,noatime  0  2
+
